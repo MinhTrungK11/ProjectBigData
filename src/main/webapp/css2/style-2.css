@@ -1,0 +1,330 @@
+@import url("css-family=PT+Sans-400,400i,700,700i&subset=cyrillic,cyrillic-ext,latin-ext.css")/*tpa=https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,latin-ext*/;
+@import url("fonts-1.css")/*tpa=https://bookdatabase.online/css/fonts.css*/;
+img{max-width:100%; height:auto;}
+body {margin: 0px;padding: 0px;font-size: 14px;font-weight:normal; font-family:'PT Sans', sans-serif; color:#222222}
+a, a:hover, a:focus {outline: none;border: 0px;text-decoration: none;}
+.header{padding:15px 0;}
+.logo{float:left;}
+.right{float:right;}
+.search-button{position: relative; width:40px; height:34px; border-radius:0px 5px 5px 0; background:#af2c00;}
+.search-button:after{ color: #fff; overflow: visible; content: "\f002"; font-family: "FontAwesome"; font-size: 16px; position: absolute; right: 0px; left:0; line-height:30px; top: 0px;}
+.input-text {border-radius: 5px 0 0 5px; color: #817e7e; float: left; font-weight: 400;text-transform: capitalize; width: 250px;
+}
+.navbar-fixed-top {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0;
+}
+.navbar-brand.fixed-theme {
+font-size: 18px;
+}
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+.search-box {margin-top: 5px;}
+.search-button:hover {background: #467a90;}
+.section-content-loader{margin-top:74px;  padding-bottom: 153px;background-color:#f4fafa;} 
+.input-text::-webkit-input-placeholder {color:#817e7e; opacity:1}
+.input-text::-moz-placeholder {color:#817e7e; opacity:1}
+.input-text:-ms-input-placeholder {color:#817e7e; opacity:1}
+.input-text:-moz-placeholder {color:#817e7e; opacity:1}
+.order-btn { color:#fff; border-radius: 10px; font-size: 1.5em; line-height: 1.2; margin: 15px 0; padding: 20px 80px; background:#ffa900; transition: all 0.1s ease-out 0s; border:none }
+.order-btn:hover{color:#fff;}
+.books-cont h4 {
+  color: #817e7e;
+}
+.books-cont h3{line-height:45px; font-weight:700;   font-size: 39.91px; color:#010101; margin:0 0 15px; text-transform: uppercase;}
+
+.books-cont h4 {
+  color: #010101;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 34px;
+  margin-bottom: 20px;
+}
+.books-cont .isbnlabel, .books-cont .author_by {
+  color:#efc100;
+  font-size: 19px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.books-cont .author_by {
+  color: #010101;
+  font-size: 25px;
+  font-weight:400;
+  margin-top: 16px;
+  font-weight: 600;
+    font-style: italic;
+}
+.books-cont {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.book-img {
+  margin-top: 20px;
+  text-align: center;
+}
+.book-img img {
+  display: inline-block;
+  max-height: 450px;}
+.buy-now-btn > a {
+    background: #eeaa1b none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 19px;
+    padding: 8px 22px;
+    text-transform: uppercase;
+    box-shadow: 0 0 4px 1px #cdcdcd;
+}
+.about-description {
+    background: #ffffff none repeat scroll 0 0;
+    padding: 40px 50px;
+     bottom: 114px;
+    position: relative;
+    box-shadow: 0 0 6px 2px #cdcdcd;
+}
+.text-diff {
+    color: #eea91b;
+}
+.section-title {
+    font-size: 22px;
+    font-weight: 700;
+     padding: 12px 0;
+}
+.description{
+  font-size: 19.2px;
+   padding-bottom: 18px;
+} 
+.learn-more > a {
+    background: #eea91b none repeat scroll 0 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 19px;
+}
+.about-authore h2{
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.about-authore .sub-title{
+  font-size: 53px;
+  font-weight: 700;
+  color: #000002;
+}
+.about-authore-text p{
+  font-size: 18px;
+  text-align:justify;
+}
+.contact-detaile {
+    background-color: #f4fafa;
+    padding: 18px 23px 6px;
+}
+.contact-detaile-head{
+  font-size: 18px;
+  font-weight: 700;
+
+}
+.links_bullet {
+    list-style-type: none;
+    padding: 0;
+     font-size: 18px;
+}
+.social-icon {
+    list-style-type: none;
+    padding: 0;
+}
+.social-icon li {
+    display: inline-block;
+}
+.social-icon-title{
+  font-size: 22px;
+  font-weight: 700;
+
+}
+.social-icon a i {
+    border: 2px solid #eea91b;
+    border-radius: 34px;
+    color: #eea91b;
+    font-size: 18px;
+    line-height: 2;
+    margin: 0 2px;
+    padding: 0 12px;
+    width: 40px;
+}
+.about-authore-img {
+    box-shadow: 0 0 6px 2px #cdcdcd;
+}
+.social-icon-title {
+    padding-right: 4px;
+}
+.bottom-article-title h2{
+  text-align: center;
+  font-size: 36.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.bottom-article-detaile{
+  font-size: 18px;
+  font-weight: 400;
+
+}
+.authore-name{
+  float: right;
+  font-size: 22px;
+  font-style: italic;
+  color: #df9e19;
+}
+.author-title{
+
+  float: right;
+  font-size: 18px;
+  font-weight:400;
+  font-style:normal;
+  color: #281f20;
+
+}
+.bottom-article-head{
+  background-color: #ffffff;
+   box-shadow: 0 0 4px 1px #cdcdcd;
+}
+.bottom-article-head {
+    padding: 26px 40px 4px 45px;
+    left: 16%;
+}
+
+.bottom-article-detaile p {
+    padding: 9px 0 0 70px;
+}
+.authore-name h3::before {
+    border: 0.5px solid #cdcdcd;
+    bottom: 22%;
+    content: "";
+    position: absolute;
+    right: 40%;
+    width: 80px;
+    z-index: 0;
+}
+.bottom-article-title {
+    position: relative;
+}
+.bottom-article-title > h2 {
+    display: inline-block;
+     background: #fff none repeat scroll 0 0;
+      padding: 0 16px;
+}
+.bottom-article-title h2::after {
+    border: 1px solid #cdcdcd;
+    content: "";
+    height: 4px;
+    left: 30%;
+    position: absolute;
+    top: 38px;
+    width: 40%;
+    z-index: -1;
+}
+.isbnlabel {
+    font-size: 18px;
+     margin-bottom: 10px;
+}
+.bottom-article{
+     background-image: url("bottom-banner.png")/*tpa=https://bookdatabase.online/images/bottom-banner.png*/;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height: 320px;
+}
+.section-header::before {
+    border: 1px solid #cdcdcd;
+    content: "";
+    height: 4px;
+    left: 236px;
+    position: absolute;
+    top: 81px;
+    width: 64%;
+}
+.bottom-article-title {
+  margin-bottom: 92px;  
+    margin-top: 50px;
+     text-align: center;
+}
+.bottom-article-head {
+     margin-top: -76px;
+}
+.about-description-head{left: 16%;}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 50px !important;
+}
+.footer{background:#281f20;border-top: 4px solid #720606}
+.footer-part{padding:30px 0;}
+.footer-box > h2::after {
+  border-bottom: 3px solid #f1aa39;
+  bottom: 5px;
+  content: "";
+  left: 0;
+  position: absolute;
+  width: 85px;
+}
+.footer-box > h2 {
+  color: #ffffff;
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 20px;
+  position: relative;
+  margin-top:0;
+  text-transform: uppercase;
+}
+.footer-box > p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+}
+.footer-box ul {
+  padding: 0;
+}
+.footer-box ul li {
+  display:block;
+  padding: 0;
+  
+}
+.footer-box ul li a {
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.footer-box ul li a:hover, .copyright a:hover{color:#f1aa39}
+.footer-box .latest-tweets > li {
+  border-bottom: 1px solid #4f3b24;
+  display: block;
+  padding-bottom:15px; margin-bottom:15px;
+  background:url(twitter.png)/*tpa=https://bookdatabase.online/images/twitter.png*/ no-repeat left 5px;
+  padding-left:20px;
+  width: 100%;
+}
+.footer-logo, .footer-box{display:inline-block; vertical-align:top; text-align:left;}
+.footer-logo{margin-right:15px; margin-top:10px;}
+.footer-part .col-sm-3, .footer-part .col-sm-2 {
+  display: inline-block;
+  float: none;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #010101 none repeat scroll 0 0 !important;
+}
+#footer{font-family: open_sansregular;}
+.clear {
+    clear: both;
+}

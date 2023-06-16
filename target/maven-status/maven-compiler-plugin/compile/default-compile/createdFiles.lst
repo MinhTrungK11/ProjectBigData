@@ -1,0 +1,14 @@
+Controller\InsertBooks.class
+Controller\EditBooks.class
+Controller\SearchByAuthor.class
+Connection\JDBCConnection.class
+Controller\UpdateBooks.class
+Connection\Select.class
+Controller\DeleteBooks.class
+DAL\DAO.class
+Model\Books_By_Author.class
+Model\Books.class
+Model\Books_By_Title.class
+Controller\Description.class
+Controller\IndexControll.class
+Controller\Manager.class
